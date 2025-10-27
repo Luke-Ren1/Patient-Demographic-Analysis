@@ -26,9 +26,9 @@ FROM patients p
 JOIN encounters e ON p.Id = e.PATIENT;
 
 
-## Tools & Technologies
+Tools & Technologies
 - Power BI
 - SQL
 - Python (optional)
 
-## Project Structure
+Project Structure
