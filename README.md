@@ -1,11 +1,11 @@
-# Create these files in your project repository:
-healthcare-dashboard/
-├── README.md
-├── sql/
-│   └── healthcare_queries.sql
-├── notebooks/
-│   └── data_analysis.ipynb
-├── dashboard/
-│   └── tableau_screenshots/
-└── data/
-    └── sample_data.csv (or data documentation)
+# Project Title
+
+## Description
+Brief description of your healthcare analytics project.
+
+## Tools & Technologies
+- Power BI
+- SQL
+- Python (optional)
+
+## Project Structure
