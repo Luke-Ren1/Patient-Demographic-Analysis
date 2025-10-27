@@ -18,4 +18,4 @@ JOIN encounters e ON p.Id = e.PATIENT
 WHERE 
     e.STOP IS NOT NULL 
     AND e.[START] IS NOT NULL
-    AND DATEDIFF(DAY, e.[START], e.STOP) > 0;
+    AND DATEDIFF(DAY, e.[START], e.STOP) > 0; 
