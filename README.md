@@ -39,9 +39,6 @@ WHERE
 <img width="1797" height="355" alt="image" src="https://github.com/user-attachments/assets/78bd08cb-238f-425e-a9ef-97b5081b80de" />
 
 
-## 
-```markdown
-```
 ## Power BI Dashboard & Data Modeling
 
 ### Power Query Transformations
@@ -53,7 +50,7 @@ WHERE
 - Created Length of Stay categories for analysis
 - Established data model relationships between Patients and Encounters
 
-[View Power Query transformations](powerbi/power_query_transformations.md)
+[View Power Query transformations](powerbi/dax_calculations.md)
 
 ![Power Query Editor](images/power_query_editor.png)
 
@@ -61,7 +58,6 @@ WHERE
 
 **Age Group Categorization:**
 ```markdown
-```dax
 Age Group = 
 SWITCH(
     TRUE(),
