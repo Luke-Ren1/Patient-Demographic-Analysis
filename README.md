@@ -16,14 +16,7 @@ Brief description of your healthcare analytics project.
 - Temporal analysis by admission year
 
 ```sql
--- Key Query Example
-SELECT
-    p.GENDER,
-    p.RACE,
-    e.ENCOUNTERCLASS,
-    DATEDIFF(DAY, e.[START], e.STOP) AS LOS
-FROM patients p  
-JOIN encounters e ON p.Id = e.PATIENT;
+[View complete SQL analysis](sql/patient_encounter_analysis.sql)
 ```
 
 ## Tools
