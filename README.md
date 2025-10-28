@@ -40,9 +40,6 @@ WHERE
 
 
 ## 3. Update Your README.md
-
-Add this section after your SQL analysis:
-
 ```markdown
 ## Power BI Dashboard & Data Modeling
 
@@ -50,10 +47,10 @@ Add this section after your SQL analysis:
 
 **Data Preparation Steps:**
 - Standardized patient demographics and gender categories
-- Calculated patient age and created age groups
+- Calculated patient age from birthdates
 - Processed encounter data with valid date ranges
 - Created Length of Stay categories for analysis
-- Established data model relationships
+- Established data model relationships between Patients and Encounters
 
 [View Power Query transformations](powerbi/power_query_transformations.md)
 
@@ -61,15 +58,16 @@ Add this section after your SQL analysis:
 
 ### DAX Calculations
 
-**Key Measures Created:**
-- Patient volume and encounter metrics
-- Length of Stay analysis with averages and categories
-- Demographic distribution calculations
-- Performance indicators for healthcare operations
-
-[View DAX calculations](powerbi/dax_calculations.md)
-
-![DAX Measures](images/dax_measures.png)
+**Age Group Categorization:**
+```dax
+Age Group = 
+SWITCH(
+    TRUE(),
+    Patient[Age] < 18, "0-17",
+    Patient[Age] <= 35, "18-35", 
+    Patient[Age] < 65, "36-64",
+    "65+"
+)
 
 ### Interactive Dashboard
 
