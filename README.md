@@ -60,7 +60,7 @@ WHERE
 ### DAX Calculations
 
 **Age Group Categorization:**
-```dax
+```sql
 Age Group = 
 SWITCH(
     TRUE(),
