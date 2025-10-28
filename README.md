@@ -26,7 +26,7 @@ FROM patients p
 JOIN encounters e ON p.Id = e.PATIENT;
 ```
 
-##Tools & Technologies
+## Tools
 - Power BI
 - SQL
 - Python (optional)
