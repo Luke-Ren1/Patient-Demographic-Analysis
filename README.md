@@ -39,7 +39,7 @@ WHERE
 <img width="1797" height="355" alt="image" src="https://github.com/user-attachments/assets/78bd08cb-238f-425e-a9ef-97b5081b80de" />
 
 
-## 3. Update Your README.md
+## 
 ```markdown
 ## Power BI Dashboard & Data Modeling
 
@@ -68,6 +68,8 @@ SWITCH(
     Patient[Age] < 65, "36-64",
     "65+"
 )
+```
+<img width="1386" height="385" alt="image" src="https://github.com/user-attachments/assets/46427b0e-930d-4380-a3b6-b35d8d943ff3" />
 
 ### Interactive Dashboard
 
