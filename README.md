@@ -24,9 +24,9 @@ SELECT
     DATEDIFF(DAY, e.[START], e.STOP) AS LOS
 FROM patients p  
 JOIN encounters e ON p.Id = e.PATIENT;
+```
 
-
-```Tools & Technologies
+##Tools & Technologies
 - Power BI
 - SQL
 - Python (optional)
