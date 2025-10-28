@@ -35,6 +35,9 @@ WHERE
     AND e.[START] IS NOT NULL
     AND DATEDIFF(DAY, e.[START], e.STOP) > 0;
 ```
+## Query Result
+<img width="1797" height="355" alt="image" src="https://github.com/user-attachments/assets/78bd08cb-238f-425e-a9ef-97b5081b80de" />
+
 
 ## Tools
 - Power BI
