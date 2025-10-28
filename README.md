@@ -54,10 +54,12 @@ WHERE
 
 ![Power Query Editor](images/power_query_editor.png)
 
-### DAX Calculations
 
-**Age Group Categorization:**
-```markdown
+# DAX Calculations
+
+## Age Group Categorization
+
+```dax
 Age Group = 
 SWITCH(
     TRUE(),
@@ -66,7 +68,6 @@ SWITCH(
     Patient[Age] < 65, "36-64",
     "65+"
 )
-```
 <img width="1386" height="385" alt="image" src="https://github.com/user-attachments/assets/46427b0e-930d-4380-a3b6-b35d8d943ff3" />
 
 ### Interactive Dashboard
