@@ -41,6 +41,7 @@ WHERE
 
 ## 
 ```markdown
+```
 ## Power BI Dashboard & Data Modeling
 
 ### Power Query Transformations
