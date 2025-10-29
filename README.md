@@ -47,7 +47,6 @@ WHERE
 - Standardized patient demographics and gender categories
 - Calculated patient age from birthdates
 - Processed encounter data with valid date ranges
-- Created Length of Stay categories for analysis
 - Established data model relationships between Patients and Encounters
 
 [View Power Query transformations](powerbi/dax_calculations.md)
@@ -72,7 +71,7 @@ SWITCH(
 
 <img width="1386" height="385" alt="image" src="https://github.com/user-attachments/assets/46427b0e-930d-4380-a3b6-b35d8d943ff3" />
 
-### Interactive Dashboard
+## Interactive Dashboard
 <img width="1310" height="725" alt="image" src="https://github.com/user-attachments/assets/7c94dade-8392-4b45-9e86-9f727c68843f" />
 
 **Dashboard Features:**
