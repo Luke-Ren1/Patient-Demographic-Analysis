@@ -1,8 +1,7 @@
 # Patient Demographic Analysis
 
 ## Description
-Brief description of your healthcare analytics project.
-
+This patient demographic analysis 
 ## SQL Analysis
 
 ### Patient Encounter Analysis
@@ -88,7 +87,6 @@ Average age =  AVERAGE(Patient[age])
 - ⏱️ **Average LOS** of 0.2 days across all encounter types
 - 👥 **Gender distribution** remains consistent across all metrics
 
-![Power BI Dashboard](images/powerbi_dashboard.png)
 
 **Dashboard Components:**
 1. **Patient Overview** - Demographics and volume metrics
