@@ -1,8 +1,7 @@
 # Patient Demographic Analysis
 
 ## Description
-This patient demographic analysis 
-## SQL Analysis
+Patient Demographic Analysis project using SQL and Power BI to explore patient demographics and hospital encounter patterns, calculate length of stay, and visualize trends in admissions and department performance.## SQL Analysis
 
 ### Patient Encounter Analysis
 
