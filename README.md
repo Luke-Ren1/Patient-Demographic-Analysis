@@ -85,8 +85,7 @@ Average age =  AVERAGE(Patient[age])
 
 **Key Insights Visualized:**
 - 📊 **35%** of encounters are outpatient services
-- ⏱️ **Average LOS** of 3.2 days across all encounter types
-- 📈 **15% increase** in emergency visits during winter months
+- ⏱️ **Average LOS** of 0.2 days across all encounter types
 - 👥 **Gender distribution** remains consistent across all metrics
 
 ![Power BI Dashboard](images/powerbi_dashboard.png)
@@ -100,6 +99,4 @@ Average age =  AVERAGE(Patient[age])
 ## Tools
 - Power BI
 - SQL
-- Python (optional)
-
-Project Structure
+- EXCEL
