@@ -47,9 +47,7 @@ WHERE
 - Processed encounter data with valid date ranges
 - Established data model relationships between Patients and Encounters
 
-[View Power Query transformations](powerbi/dax_calculations.md)
 
-![Power Query Editor](images/power_query_editor.png)
 
 
 ### DAX Calculations
